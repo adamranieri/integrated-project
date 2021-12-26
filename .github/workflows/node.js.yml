@@ -10,7 +10,7 @@ on:
     branches: [ main ]
 
 env:
-  SOMETHING: WASSUP
+  SOMETHING: ${{ secrets.SOMETHING_SECRET}}
 
 jobs:
   build:
