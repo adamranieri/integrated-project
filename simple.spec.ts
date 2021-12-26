@@ -13,6 +13,7 @@ describe("Simple Suite", ()=>{
 
     it("should read an environment variable", ()=>{
         expect(process.env.SOMETHING).toBeTruthy()
+        expect(process.env.SOMETHING).toBe("pa$$word)
     })
 
 })
